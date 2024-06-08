@@ -1,0 +1,980 @@
+body{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+.leftCorner{
+    position: fixed;
+    top: 7px;
+    background-color: rgb(16, 16, 16);
+    height: 180px;
+    width: 340px;
+    border-radius: 7px;
+}
+.fa-brands{
+    color: white;
+    font-size:25px;
+}
+.fa-solid{
+    color: white;
+    font-size:20px;
+}
+
+.sIcon{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.SpotifyIcon{
+    color: white;
+    font-size:20px;
+    margin-top: 2px;
+    margin-left: 4px;
+    
+}
+.hIcon{
+    display: flex;
+    margin-top: 2px;
+    margin-left: 20px;
+}
+
+.HomeIcon{
+    color: white;
+    font-size:20px;
+    margin-top: 2px;
+    margin-left: 15px;
+}
+.seIcon{
+    display: flex;
+    margin-top: 2px;
+    margin-left: 20px;
+}
+.fa-solid{
+    color:white;
+    font-size:20px;
+}
+.SearchIcon{
+    color: rgb(177, 172, 172);
+    font-size:20px;
+    margin-top: 0px;
+    margin-left: 18px;
+}
+.MiddleUp{
+    position: fixed;
+    left: 360px;
+    background-color: rgb(16, 16, 16);
+    height: 70px;
+    width: 860px;
+    border-radius: 7px;
+    display: flex;
+    z-index: 2;
+}
+
+.nave{
+    margin-top: 15px;
+    margin-left: 20px;
+} 
+.button{
+    font-size: 26px;
+    color:rgb(106, 104, 104);
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 100%;
+    
+  }
+  .button1{
+    font-size: 26px;
+    margin-left: 10px;
+    color:rgb(106, 104, 104);
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+.nave2{
+    position: absolute;
+   right: 20px;
+   top: 7px;
+}
+.signup{
+    font-size: 18px;
+    height: 50px;
+    width: 100px;
+   margin-right: 10px;
+   font-weight: bold;
+   background-color: rgb(16, 16, 16);
+   color: rgb(177, 172, 172);
+   border: none;
+}
+.signup:hover{
+    color: white;
+    font-size: 20px;
+}
+.signin{
+    height: 50px;
+    width: 100px;
+    font-size: 18px;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 60px;
+}
+.signin:hover{
+    font-size: 20px;
+}
+.library{
+    position: fixed;
+    top: 195px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(16, 16, 16);
+    height: 500px;
+    width: 340px;
+}
+.icon{
+    display: flex;
+    position: absolute;
+    top: -8px; left: 30px;
+}
+.A{
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(177, 172, 172);
+}
+.A1{
+    font-size: 32px;
+    color: rgb(177, 172, 172);
+    margin-top: 23px;
+    font-weight: bolder;
+  
+}
+.lib{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(177, 172, 172);
+    margin-top: 30px;
+    margin-left: 20px;
+ 
+}
+.Plus{
+    height: 30px;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-left: 110px;
+    border: none;
+    background-color: rgb(16, 16, 16);
+    color: rgb(177, 172, 172);
+    border-radius: 50px;
+  }
+  /* problem */
+  .create-playlist{
+    background-color: #302f2f;
+    padding: 30px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+.scroll{
+    background-color: #302f2f;
+    height: 50px;
+    overflow-y: auto;
+    margin-top: 70px;
+    width: 325px;
+    margin-left: 8px;
+
+}
+.scroll::-webkit-scrollbar{
+    background-color: #302f2f;
+}
+.scroll::-webkit-scrollbar-thumb{
+    width: 10px;
+}
+.scroll:hover::-webkit-scrollbar-thumb{
+    background-color: #9a9494;
+    width: 5px;
+}
+.playlist1{
+    margin-top: -10px;
+    color: white;
+}
+.playlist2{
+    border-radius: 30px;
+    height: 35px;
+    border: none;
+}
+
+/* problems */
+
+.paragraph{
+    display: flex;
+    margin-top: 16px;
+}
+
+.center{
+    font-size: 14px;
+    color: white;
+    margin-left: 16px;
+    margin-top: 40px;
+   
+   
+}
+
+.paragraph2{
+    display: flex;
+}
+
+.about{
+    font-size: 14px;
+    color: white;
+    margin-left: 16px;
+    margin-top: 2px;
+}
+
+.paragraph3{
+    color: white;
+    margin-left: 16px;
+}
+    
+.pro{
+    margin-top: -1px;
+}
+
+.earth{
+    margin-top: 20px;
+    margin-left: 16px;
+}
+
+.earth1{
+    height: 30px;
+    width: 100px;
+    border: 1px solid rgb(177, 172, 172);
+    color: rgb(177, 172, 172);
+    background-color: rgb(35, 34, 34);
+    border-radius: 30px;
+}
+.earth1:hover{
+    border: 1px solid white;
+    font-weight: bold;
+    border-width:initial;
+}
+
+.mainpage{
+    position: absolute;
+    top: 74px; left: 360px;
+    border: none;
+ 
+    background-color: rgb(27, 27, 29);
+    width: 860px;
+    height: 2500px;
+    z-index: 1;
+
+}
+/* First Line */
+.artist{
+    display: inline-block;
+    height: 250px;
+    width: 165px;
+    margin-left: 1px;
+}
+.artist:hover{
+    background-color: rgb(33, 33, 33);
+}
+.popularArtist{
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 10px;
+    font-size: 20px;
+}
+.popularArtist:hover{
+    text-decoration: underline;
+}
+.Show{
+    color: rgb(177, 172, 172);
+    margin-top: -28px;
+    margin-left: 770px;
+    height: 10px;
+    font-size: 15px;
+}
+.Show:hover{
+    text-decoration: underline;
+}
+.playbtn{
+    position: absolute;
+    background-color: green;
+    border-radius: 50%;
+    padding: 12px;
+    left: 110px;
+    top: 160px;
+    opacity: 0;
+}
+
+.fa-play{
+    color: black;
+}
+.artist:hover .playbtn{
+    opacity: 1;
+}
+
+.playbtn1{
+    position: absolute;
+    background-color: green;
+    border-radius: 50%;
+    padding: 12px;
+    margin-top: 120px;
+    margin-left: 110px;
+    opacity: 0;
+}
+
+.fa-play{
+    color: black;
+}
+.artist:hover .playbtn1{
+    opacity: 1;
+}
+
+.pritam{
+    background-image: url(pritam\ singer.jpeg);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.pritam1{
+    color: white;
+    margin-left: 20px;
+}
+.pritam2{
+    color: rgb(177, 172, 172);
+    margin-left: 20px;
+}
+
+
+.arjit{
+    background-image: url(arjit\ singh.jpeg);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.Rahman{
+    background-image: url(a.r\ rahman.jpeg);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.Vishal{
+    background-image: url(vishal\ mishara.jpeg);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.Anirudh{
+    background-image: url(anirudh.jpeg);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+/* Second line */
+.popularAlbums{
+    color: white;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 10px;
+    font-size: 20px;
+}
+.popularAlbums:hover{
+    text-decoration: underline;
+}
+.Animal{
+    background-image: url(animals.jpeg);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.animal1{
+    color: white;
+    margin-left: 8px;
+}
+.animal2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+}
+.still{
+    background-image: url(still\ rollin.jpeg);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.still1{
+    color: white;
+    margin-left: 8px;
+}
+.still2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+}
+.moosetape{
+    background-image: url(moosetape.jpeg);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.moosetape1{
+    color: white;
+    margin-left: 8px;
+}
+.moosetape2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+}
+.EkThaRaja{
+    background-image: url(ek\ tha\ raja.jpeg);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.EkThaRaja1{
+    color: white;
+    margin-left: 8px;
+}
+.EkThaRaja2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+}
+.Ghost{
+    background-image: url(ghost.jpeg);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.Ghost1{
+    color: white;
+    margin-left: 8px;
+}
+.Ghost2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+}
+/* Third Line */
+.ArjitRadio{
+    background-image: url(arjit\ singh\ radio.jpeg.png);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.ArjitRadio1{
+    color: white;
+    margin-left: 8px;
+}
+.ArjitRadio2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+    
+}
+.diljiradio{
+    background-image: url(diljit\ dosanjh.jpeg.png);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.diljiradio1{
+    color: white;
+    margin-left: 8px;
+}
+.diljiradio2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+}
+.KumarRadio{
+    background-image: url(kumar\ sanu.jpeg.png);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.KumarRadio1{
+    color: white;
+    margin-left: 8px;
+}
+.KumarRadio2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+}
+.KK{
+    background-image: url(KK.jpeg.png);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.KK1{
+    color: white;
+    margin-left: 8px;
+}
+.KK2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+}
+.shidhu{
+    background-image: url(sidhu.jpeg.png);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.shidhu1{
+    color: white;
+    margin-left: 8px;
+}
+.shidhu2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+}
+/* Fourth line */
+.global{
+    background-image: url(global.png);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.global1{
+    color: white;
+    margin-left: 8px;
+}
+.global2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+    
+}
+.USA{
+    background-image: url(USA.png);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.USA1{
+    color: white;
+    margin-left: 8px;
+}
+.USA2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+}
+.globalfirst{
+    background-image: url(global2.png);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.globalfirst1{
+    color: white;
+    margin-left: 8px;
+}
+.globalfirst2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+}
+.USAfirst{
+    background-image: url(USA2.png);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.USAfirst1{
+    color: white;
+    margin-left: 8px;
+}
+.USAfirst2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+}
+.Viral{
+    background-image: url(global3.png);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.Viral1{
+    color: white;
+    margin-left: 8px;
+}
+.Viral2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+}
+
+/* Fifth Line */
+
+.Sleep{
+    background-image: url(sleep.png);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.Sleep1{
+    color: white;
+    margin-left: 8px;
+}
+.Sleep2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+    
+}
+.Night{
+    background-image: url(night.png);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.Night1{
+    color: white;
+    margin-left: 8px;
+}
+.Night2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+}
+.Lofi{
+    background-image: url(lofi\ sleep.png);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.Lofi1{
+    color: white;
+    margin-left: 8px;
+}
+.Lofi2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+}
+.Deep{
+    background-image: url(deep\ sleep.png);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.Deep1{
+    color: white;
+    margin-left: 8px;
+}
+.Deep2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+}
+.Noise{
+    background-image: url(white\ noise.png);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.Noise1{
+    color: white;
+    margin-left: 8px;
+}
+.Noise2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+}
+
+/* Sixth Line */
+
+.Krishna{
+    background-image: url(krishna\ ji.png);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.Krishna1{
+    color: white;
+    margin-left: 8px;
+}
+.Krishna2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+    
+}
+.bengali{
+    background-image: url(bengali.png);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.bengali1{
+    color: white;
+    margin-left: 8px;
+}
+.bengali2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+}
+.rogan{
+    background-image: url(rogan.png);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.rogan1{
+    color: white;
+    margin-left: 8px;
+}
+.rogan2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+}
+.story{
+    background-image: url(true\ story.png);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.story1{
+    color: white;
+    margin-left: 8px;
+}
+.story2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+}
+.gopi{
+    background-image: url(gopi.png);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.gopi1{
+    color: white;
+    margin-left: 8px;
+}
+.gopi2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+}
+
+/* Seventh Line */
+
+.welcome{
+    background-image: url(welcome.png);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.welcome1{
+    color: white;
+    margin-left: 8px;
+}
+.welcome2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+    
+}
+.Rotten{
+    background-image: url(rotten.png);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.Rotten1{
+    color: white;
+    margin-left: 8px;
+}
+.Rotten2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+}
+.hear{
+    background-image: url(i\ hear\ you.png);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.hear1{
+    color: white;
+    margin-left: 8px;
+}
+.hear2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+}
+.hearsecond{
+    background-image: url(i\ hear\ you\ 2.png);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.hearsecond1{
+    color: white;
+    margin-left: 8px;
+}
+.hearsecond2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+}
+.mahabharat{
+    background-image: url(mahabharat.png);
+    background-size:cover ;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.mahabharat1{
+    color: white;
+    margin-left: 8px;
+}
+.mahabharat2{
+    color: rgb(177, 172, 172);
+    margin-left: 8px;
+}
+
+/* Text Part */
+
+.text{
+    height: 230px;
+    width: 865px;
+    margin-top:90px;
+    background-color: rgb(27, 27, 29);
+    display: flex;
+    justify-content: space-evenly;
+}
+.company2{
+    color: white;
+    font-weight: bold;
+}
+.company2nd{
+    color: rgb(177, 172, 172)
+}
+.company2nd:hover{
+    color: white;
+    text-decoration: underline;
+}
+.company3{
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.textlogo{
+    height: 35px;
+    width: 35px;
+    background-color: rgb(72, 69, 69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.textlogo:hover{
+    background-color: rgb(172, 169, 169);
+}
+.hr{
+    color:rgb(128, 118, 118);
+}
+
+.last{
+    background-color: rgb(27, 27, 29);
+    color: white;
+    height: 130px;
+    width: 865px;
+    margin-top: -20px;
+}
+.last p{
+    margin-left: 25px;
+    margin-top: 45px;
+    color:rgb(128, 118, 118) ;
+}
